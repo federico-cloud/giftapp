@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { AddCategory } from './AddCategory';
+import PropTypes from 'prop-types';
 
 export const GiftApp = () => {
 
-    const [categorias, setCategorias] = useState(['fede', 'roberto']);
+    const [categorias, setCategorias] = useState([]);
 
   return (
     <>
    
         <h2>GiftApp</h2>
-        <AddCategory/>
+        <AddCategory setCategorias={setCategorias}/>
         <hr/>
 
         <ol>
@@ -22,4 +23,8 @@ export const GiftApp = () => {
 
     </>
   )
+}
+
+AddCategory.propTypes = {
+    setCategorias: PropTypes.func.isRequired
 }
