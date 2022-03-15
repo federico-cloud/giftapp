@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AddCategory } from './AddCategory';
+import { AddCategory } from './components/AddCategory';
 import PropTypes from 'prop-types';
 
 export const GiftApp = () => {
