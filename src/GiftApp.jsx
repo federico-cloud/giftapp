@@ -1,20 +1,16 @@
 import React, { useState } from 'react';
+import { AddCategory } from './AddCategory';
 
 export const GiftApp = () => {
 
     const [categorias, setCategorias] = useState(['fede', 'roberto']);
 
-    const handleAdd = () => {
-        setCategorias([...categorias, 'Rolando']);
-    }
-  
   return (
     <>
    
         <h2>GiftApp</h2>
+        <AddCategory/>
         <hr/>
-
-        <button onClick={handleAdd}> Agregar </button>
 
         <ol>
             {
