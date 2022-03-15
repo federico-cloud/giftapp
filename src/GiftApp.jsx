@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import PropTypes from 'prop-types';
+import { GifGrid } from './components/GifGrid';
 
 export const GiftApp = () => {
 
@@ -15,9 +16,12 @@ export const GiftApp = () => {
 
         <ol>
             {
-                categorias.map( categoria => {
-                    return <li key={ categoria }>{categoria}</li>
-                })
+                categorias.map( categoria => ( 
+                    <GifGrid 
+                        key = {categoria}
+                        categoria = {categoria}
+                    />
+                ))
             }
         </ol>
 
