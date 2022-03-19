@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/giftapp/static/css/main.796d4b56.css",
+    "main.js": "/giftapp/static/js/main.88d10795.js",
+    "index.html": "/giftapp/index.html",
+    "main.796d4b56.css.map": "/giftapp/static/css/main.796d4b56.css.map",
+    "main.88d10795.js.map": "/giftapp/static/js/main.88d10795.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.796d4b56.css",
+    "static/js/main.88d10795.js"
+  ]
+}
