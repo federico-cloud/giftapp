@@ -3,9 +3,9 @@ import { AddCategory } from './components/AddCategory';
 import PropTypes from 'prop-types';
 import { GifGrid } from './components/GifGrid';
 
-export const GiftApp = () => {
+export const GiftApp = ({defaultCategorias = []}) => {
 
-    const [categorias, setCategorias] = useState([]);
+    const [categorias, setCategorias] = useState(defaultCategorias);
 
   return (
     <>
