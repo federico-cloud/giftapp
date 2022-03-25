@@ -1,15 +1,17 @@
 # giftApp
 
-Esta es una aplicacion creada con el fin de implementar los conocimientos adquiridos en el curso de React del profesor Fernando Herrera, en esta aplicacion se utilizaron para su desarrollo:
-    
+Esta es una aplicacion creada con el fin de implementar los conocimientos adquiridos en el curso de React del profesor Fernando Herrera, en esta aplicacion se utilizaron para:
+
+Desarrollo:
+
 - [x] Funcional components
 - [x] Hooks (useState, useEffect)
 - [x] Custom Hooks
 
-## Testing:
+Testing:
 
-- [x] Jest
-- [x] Enzyme
+- [x] Jest (https://jestjs.io/)
+- [x] Enzyme (https://enzymejs.github.io/enzyme/)
 - [x] React testing library (https://react-hooks-testing-library.com/)
 
 ## Link
