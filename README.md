@@ -1,4 +1,4 @@
-# giftApp
+# giftApp ()
 
 Esta es una aplicacion creada con el fin de implementar los conocimientos adquiridos en el curso de React del profesor Fernando Herrera, en esta aplicacion se utilizaron para:
 
@@ -14,7 +14,7 @@ Testing:
 - [x] Enzyme (https://enzymejs.github.io/enzyme/)
 - [x] React testing library (https://react-hooks-testing-library.com/)
 
-## Link
+## Link del curso
 
 https://www.udemy.com/course/react-cero-experto/
 
